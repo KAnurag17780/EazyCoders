@@ -1,0 +1,9 @@
+#carouselExampleCaptions .carousel-item {
+    height: 280px; /* Controls the height of the carousel */
+}
+
+#carouselExampleCaptions .carousel-item img {
+    width: 100%;      /* Ensures images fit the width */
+    height: 100%;     /* Stretches images to fill the height */
+    object-fit: cover; /* Crops images nicely to avoid distortion */
+}
